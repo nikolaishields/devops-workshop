@@ -2,7 +2,7 @@
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.134.0/containers/python-3
 {
 	"name": "Devops-workshop",
-	"image": "ubuntu:18.04"
+	"image": "ubuntu"
 
 
 	// Set *default* container specific settings.json values on container create.
@@ -14,9 +14,6 @@
 	"extensions": [
 		"ms-vsliveshare.vsliveshare-pack"
 	],
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "",
 
 	// Comment out to connect as root instead.
 	"remoteUser": "root"
